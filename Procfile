@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath niniliao.wsgi --log-file -
+web: gunicorn --pythonpath niniliao niniliao.wsgi --log-file -
