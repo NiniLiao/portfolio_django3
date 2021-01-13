@@ -37,7 +37,7 @@
 				{% include 'base/navbar.html' %}
 
 				<div class="left-column">
-					<img id="profile_pic" src="{% static 'images/Dennis.jpg' %}">
+					<img id="profile_pic" src="{% static 'images/Nini.jpg' %}">
 					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
 
 					<div id="theme-options-wrapper">
@@ -80,7 +80,7 @@
 
 					<h4>TOP EXPERTISE</h4>
 
-					<p>Fullstack developer with primary focus on Django + React: <a target="_blank" href="{% static 'resume.pdf' %}">Download Resume</a></p>
+					<p>Fullstack developer with primary focus on Django + React: <a target="_blank" href="{% static 'PiNi_Liao_Resume.PDF' %}">Download Resume</a></p>
 
 					<div id="skills">
 						<ul>
@@ -104,7 +104,7 @@
 
 				
 				<div class="social-links">
-					<img id="social_img" src="{% static 'images/follow.jpg' %}">
+					<img id="social_img" src="{% static 'images/facebook.jpg' %}">
 					<h3>Find me on Facebook</h3>
 
 					<a target="_blank" href="https://www.facebook.com/NNL.27">Facebook: @NiniLiao</a>
@@ -119,6 +119,39 @@
 			<h3 style="text-align: center;">Some of my past projects</h3>
 
 			<div class="post-wrapper">
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="images/Login.png">
+						<div class="post-preview">
+						<h6 class="post-title">Resgester and Login APP</h6>
+						<p class="post-intro">This is a sentence. Some more text</p>
+						<a target="_blank" href="https://nameless-hamlet-76411.herokuapp.com/#/login">Read More</a>
+						</div>
+					</div>
+					</div>
+
+					<div>
+					<div class="post">
+						<img class="thumbnail" src="images/Blog.png">
+						<div class="post-preview">
+						<h6 class="post-title">Portfolio</h6>
+						<p class="post-intro">This is a sentence. Some more text</p>
+						<a target="_blank" href="https://dreamblogdjango3.herokuapp.com/">Read More</a>
+						</div>
+					</div>
+					</div>
+
+					<div>
+					<div class="post">
+						<img class="thumbnail" src="images/eCommerce.png">
+						<div class="post-preview">
+						<h6 class="post-title">eCommerce Website</h6>
+						<p class="post-intro">This is a sentence. Some more text</p>
+						<a target="_blank" href="https://ecommerce-nnl.herokuapp.com/">Read More</a>
+						</div>
+					</div>  
+					</div>
+					
 				{% for post in posts %}
 				<div>
 					<div class="post">
