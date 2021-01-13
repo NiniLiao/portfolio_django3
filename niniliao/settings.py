@@ -51,6 +51,8 @@ INSTALLED_APPS = [
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+SITE_ID = 1
+
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 
